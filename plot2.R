@@ -1,4 +1,4 @@
-### Plot 1
+### Plot 2
 
 # Download and Load Data
 if(!file.exists("./data")){dir.create("./data")}

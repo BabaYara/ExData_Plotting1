@@ -46,6 +46,8 @@ plot(df$DateTime, df$Sub_metering_1, type = "l",
      main = "")
 lines(df$DateTime, df$Sub_metering_2, col = "red")
 lines(df$DateTime, df$Sub_metering_3, col = "blue")
+legend("topright", lty = 1, col = c("black","red","blue"), bty = "n",
+       legend = c("Sub_metering_1", "Sub_metering_2","Sub_metering_3"))
 #plot 4
 plot(df$DateTime, df$Global_reactive_power, data = df, type = "l",
      xlab = "Date Time",
